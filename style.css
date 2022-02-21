@@ -1,0 +1,54 @@
+body{
+    margin: auto;
+}
+.navbar{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+}
+.nav-link{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: black;
+}
+.quem-somos{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #09BD7B;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.parceiros{
+    background-color:#91234B;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.servicos{
+    font-family: 'Times New Roman', Times, serif;    
+    background-color:white;
+    color: black;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.title-margin{
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+.title-margin.s{
+    padding-top: 20px;
+}
+.text-margin{
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+article > h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div > p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 30px;
+}
