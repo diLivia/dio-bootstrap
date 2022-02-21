@@ -1,18 +1,28 @@
-body{
+@font-face {
+    font-family: Quimil;
+    src: url("fonte/Quimil\ Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
     margin: auto;
 }
-.navbar{
-    font-family: 'Times New Roman', Times, serif;
+
+.navbar {
+    font-family: "Times New Roman", Times, serif;
     padding: 20px;
 }
-.nav-link{
-    font-family: 'Times New Roman', Times, serif;
+
+.nav-link {
+    font-family: "Times New Roman", Times, serif;
     font-weight: bolder;
     color: black;
 }
-.quem-somos{
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #59BDF7;
+
+.quem-somos {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #59bdf7;
     color: black;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -20,19 +30,21 @@ body{
     border-radius: 10px;
     margin: 0px 60px 20px 90px;
 }
-.parceiros{
-    background-color:#ED671A; 
+
+.parceiros {
+    background-color: #ed671a;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 50px;
     border-radius: 10px;
     margin: 0px 60px 20px 90px;
 }
-.servicos{
-    font-family: 'Times New Roman', Times, serif;    
-    background-color:#DBDBDB;
+
+.servicos {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #dbdbdb;
     color: black;
     text-align: center;
     padding-top: 30px;
@@ -40,21 +52,36 @@ body{
     margin: 0px 60px 20px 90px;
     border-radius: 10px;
 }
-.title-margin{
+
+.title-margin {
     padding-top: 20px;
     padding-bottom: 25px;
 }
-.title-margin.s{
+
+.title-margin.s {
     padding-top: 20px;
 }
-.text-margin{
+
+.text-margin {
     padding-top: 25px;
     padding-bottom: 20px;
 }
-article > h4{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+article>h4 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
 }
-div > p{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+div>p {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
     padding-top: 30px;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    text-align: center;
 }
